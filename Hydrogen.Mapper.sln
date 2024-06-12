@@ -3,11 +3,61 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Global
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hydrogen.Mapper", "src\Hydrogen.Mapper\Hydrogen.Mapper.csproj", "{E042D967-52B9-4A8F-A105-635E99EC31B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hydrogen.Mapper.Abstraction", "src\Hydrogen.Mapper.Abstraction\Hydrogen.Mapper.Abstraction.csproj", "{7078534B-4062-41C3-9670-F83F15CF5FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hydrogen.Mapper.Extensions.AutoMapper", "src\Hydrogen.Mapper.Extensions.AutoMapper\Hydrogen.Mapper.Extensions.AutoMapper.csproj", "{9BE16434-E256-4FF8-AB8E-9659341E6FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hydrogen.Mapper.Extensions.Mapster", "src\Hydrogen.Mapper.Extensions.Mapster\Hydrogen.Mapper.Extensions.Mapster.csproj", "{D47D7808-0AE5-44AC-9A23-1075722D04CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hydrogen.Mapper.Tests", "tests\Hydrogen.Mapper.Tests\Hydrogen.Mapper.Tests.csproj", "{8D69C1F7-96B4-47E4-8898-1F294AFC25A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hydrogen.Abstraction", "..\Hydrogen\src\Hydrogen.Abstraction\Hydrogen.Abstraction.csproj", "{588E16AB-0EB6-4BEB-BA49-7B6147E14520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E042D967-52B9-4A8F-A105-635E99EC31B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E042D967-52B9-4A8F-A105-635E99EC31B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E042D967-52B9-4A8F-A105-635E99EC31B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E042D967-52B9-4A8F-A105-635E99EC31B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7078534B-4062-41C3-9670-F83F15CF5FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7078534B-4062-41C3-9670-F83F15CF5FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7078534B-4062-41C3-9670-F83F15CF5FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7078534B-4062-41C3-9670-F83F15CF5FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE16434-E256-4FF8-AB8E-9659341E6FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE16434-E256-4FF8-AB8E-9659341E6FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE16434-E256-4FF8-AB8E-9659341E6FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE16434-E256-4FF8-AB8E-9659341E6FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47D7808-0AE5-44AC-9A23-1075722D04CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47D7808-0AE5-44AC-9A23-1075722D04CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47D7808-0AE5-44AC-9A23-1075722D04CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47D7808-0AE5-44AC-9A23-1075722D04CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D69C1F7-96B4-47E4-8898-1F294AFC25A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D69C1F7-96B4-47E4-8898-1F294AFC25A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D69C1F7-96B4-47E4-8898-1F294AFC25A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D69C1F7-96B4-47E4-8898-1F294AFC25A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588E16AB-0EB6-4BEB-BA49-7B6147E14520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588E16AB-0EB6-4BEB-BA49-7B6147E14520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588E16AB-0EB6-4BEB-BA49-7B6147E14520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588E16AB-0EB6-4BEB-BA49-7B6147E14520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+>>>>>>> ac218046aef10449f6413acc3be21a28fc66cbb6
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {DE37E9A2-93C6-455C-8E69-F72D034FCBA7}
+=======
+		SolutionGuid = {A70A095B-40AB-4B37-A829-66F86F29248B}
+>>>>>>> ac218046aef10449f6413acc3be21a28fc66cbb6
 	EndGlobalSection
 EndGlobal
