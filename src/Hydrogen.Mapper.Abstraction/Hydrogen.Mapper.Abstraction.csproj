@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Hydrogen\src\Hydrogen.Abstraction\Hydrogen.Abstraction.csproj" />
+  </ItemGroup>
+
 </Project>
