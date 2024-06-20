@@ -121,7 +121,7 @@ public class MappingConfigurationBuilder
 
         if (_jsonConfiguration == null)
         {
-            return new MappingConfiguration(_registeredAssemblies);
+            return new MappingPlan(_registeredAssemblies, []);
         }
 
         return new MappingPlan(_registeredAssemblies, _jsonConfiguration);
