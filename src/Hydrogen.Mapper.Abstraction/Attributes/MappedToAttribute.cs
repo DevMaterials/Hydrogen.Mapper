@@ -1,8 +1,9 @@
-﻿namespace Hydrogen.Mapper.Abstraction.Configuration.Attributes;
+﻿namespace Hydrogen.Mapper.Abstraction.Attributes;
 
 /// <summary>
-///     This marker attribute links a marked class or struct as the mapping destination to another
-///     class or struct as a source of the mapping operation.
+///     This attribute will be used to map a class or struct as the destination,to another class or
+///     struct as the source of a mapping operation. The attribute is used by a destination type of
+///     the mapping operation and the source will be specified by the passed parameter. 
 /// </summary>
 /// <param name="sourceType">The type of the source of mapping operation.</param>
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct)]
@@ -13,4 +14,3 @@ public class MappedToAttribute(Type sourceType) : Attribute
     /// </summary>
     public Type SourceType { get; } = sourceType;
 }
-
